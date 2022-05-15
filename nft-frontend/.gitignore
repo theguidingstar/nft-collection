@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-nft-frontend/node_modules
+/node_modules
 /.pnp
 .pnp.js
 
@@ -9,11 +9,11 @@ nft-frontend/node_modules
 /coverage
 
 # next.js
-nft-frontend/.next/
-nft-frontend/out/
+/.next/
+/out/
 
 # production
-nft-frontend/build
+/build
 
 # misc
 .DS_Store
